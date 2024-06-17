@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Kalam:wght@300;400;700&display=swap');
+
+.html {
+    scrollbar-width: thin;
+}
+
+.body {
+    background-image: url('https://i.imgur.com/MARVJ27.png');
+    background-size: 10% auto;
+    color: #77675c;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative;
+    width: 660px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bunny {
+    width: 120px;
+    margin: 10px;
+}
+
+.menu {
+    font-family: "Homemade Apple", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: -35px;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    color: #77675c;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #ada6a3;
+}
+
+.content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 616px; 
+    display: inline-block;
+    position: relative;
+    background-image: url('https://cdn.discordapp.com/attachments/820059579660370003/1252104173630263296/IMG_2677.png?ex=66710061&is=666faee1&hm=2fb0a135964d11419818b7bc522df245e0dd196301dbabb2d012ccba829e4645&');
+}
+
+.title {
+    font-family: "Homemade Apple", sans-serif;
+    font-size: 14px;
+    color: #77675c;
+    margin-top: 22px;
+    top: -18px;
+    background: #ede8e4;
+    display: inline-block;
+    padding: 0 42px;
+    box-shadow: 0 0 5px #a9a19b;
+    position: relative;
+    border-radius: 4px;
+}
+
+iframe {
+    border: 0;
+    width: 405px;
+    height: 520px;
+    margin: 50px;
+    margin-top: -10px;
+}
+
+.tulips img {
+    width: 40px;
+}
+
+.tulips {
+    position: absolute;
+    bottom: -7px;
+    right: -10px;
+    z-index: -1;
+    opacity: 0.5;
+    filter: sepia(0.5) blur(0.5px);
+}
